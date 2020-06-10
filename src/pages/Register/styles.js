@@ -10,10 +10,8 @@ export const Page = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 900px;
+  width: 1100px;
   background: #eee;
-  height: 500px;
-  padding: 0;
   border-radius: 8px;
   position: absolute;
   top: 15%;
@@ -30,6 +28,7 @@ export const Info = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px 0;
 
   img {
     width: 200px;

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import { Link, useHistory } from 'react-router-dom';
-import { Page, Container, Form, Input, SubmitButton, Info } from './styles';
+import { Container, Page, Form, Input, SubmitButton, Info } from './styles';
+
 import logo from '../../assets/logo.png';
 
 export default class Register extends Component {
