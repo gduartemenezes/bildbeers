@@ -32,8 +32,8 @@ export const ActionBox = styled.div`
     text-decoration: none;
     padding: 15px;
     margin-left: 30px;
-    background: #c3410e;
-    border: 1px solid #c3410e;
+    background: #352f44;
+    border: 1px solid #352f44;
     color: #fff;
     border-radius: 20px;
   }
@@ -41,16 +41,16 @@ export const ActionBox = styled.div`
     filter: brightness(65%);
   }
   a.btn-beers {
-    color: #c3410e;
+    color: #fff;
     background: transparent;
-    border: 1px solid #c3410e;
+    border: 1px solid #352f44;
     transition: color 1s, background 1s;
   }
 
   a.btn-beers:hover {
     color: #fff;
-    background: #c3410e;
-    border: 1px solid #c3410e;
+    background: #352f44;
+    border: 1px solid #352f44;
   }
 `;
 
@@ -72,7 +72,7 @@ export const Header = styled.header`
     li {
       cursor: pointer;
       list-style: none;
-      color: #FFF;
+      color: #fff;
       margin: 10px 20px;
       font-size: 120%;
       padding: 0;
@@ -83,4 +83,3 @@ export const Header = styled.header`
     }
   }
 `;
-

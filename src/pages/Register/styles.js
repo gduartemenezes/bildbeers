@@ -72,13 +72,13 @@ export const SubmitButton = styled.button`
   width: 300px;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #c3410e;
-  background: #c3410e;
+  border: 1px solid #352f44;
+  background: #352f44;
   color: #fff;
   transition: background 0.5s color 0.5s;
 
   &:hover {
-    background: #94310a;
+    background: #252130;
     color: #ccc;
   }
 `;

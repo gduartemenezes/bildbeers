@@ -15,39 +15,35 @@ export default class Register extends Component {
     };
   }
 
-
   handleInput = (e) => {
-    const {target} = e;
-    const value = target.value;
-    const {name} = target;
+    const { target } = e;
+    const { value } = target;
+    const { name } = target;
 
-    this.setState({[name] : value});
-
-  }
+    this.setState({ [name]: value });
+  };
 
   handleSubmit = (e) => {
     e.preventDefault();
     const history = useHistory();
-    const {name, email, password} = this.state;
+    const { name, email, password } = this.state;
     const data = {
       name,
       email,
-      password
+      password,
     };
 
     console.log(data);
     history.push('/popular');
-  }
-
+  };
 
   render() {
-    const {name, email, password} = this.state;
+    const { name, email, password } = this.state;
     return (
       <Page>
         <Container>
           <Info>
             <img src={logo} alt="B Beers Logo" />
-
             <p>
               Make your account.
               <br /> Discover a new beer right next to you
@@ -56,9 +52,27 @@ export default class Register extends Component {
           </Info>
 
           <Form onSubmit={this.handleSubmit}>
-            <Input type="text" placeholder="Name" name="name" value={name} onChange={this.handleInput} />
-            <Input type="text" placeholder="Email" name="email" value={email} onChange={this.handleInput}/>
-            <Input type="password" placeholder="Password" name="password" value={password} onChange={this.handleInput}/>
+            <Input
+              type="text"
+              placeholder="Name"
+              name="name"
+              value={name}
+              onChange={this.handleInput}
+            />
+            <Input
+              type="text"
+              placeholder="Email"
+              name="email"
+              value={email}
+              onChange={this.handleInput}
+            />
+            <Input
+              type="password"
+              placeholder="Password"
+              name="password"
+              value={password}
+              onChange={this.handleInput}
+            />
             <SubmitButton> Register </SubmitButton>
           </Form>
         </Container>

@@ -1,24 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, ActionBox, Header } from './styles';
-
-import logo from '../../assets/logo_transparent_1.png';
+import { Container, ActionBox } from './styles';
 
 export default function Main() {
   return (
     <Container>
-      <Header>
-        <img src={logo} alt="Logo"/>
-        <ul className="list-actions">
-          <li>About us</li>
-          <li>Trending Beers</li>
-          <li>Search</li>
-        </ul>
-        <ul className="list-user">
-          <li>Login</li>
-          <li>Sign up</li>
-        </ul>
-      </Header>
       <h1>
         Say goodbye to the same old beers.
         <br />
