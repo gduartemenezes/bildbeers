@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { Page, Container, Form, Input, SubmitButton, Info } from './styles';
 import logo from '../../assets/logo.png';
 
@@ -14,6 +14,7 @@ export default class Register extends Component {
     };
   }
 
+
   handleInput = (e) => {
     const {target} = e;
     const value = target.value;
@@ -25,6 +26,7 @@ export default class Register extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
+    const history = useHistory();
     const {name, email, password} = this.state;
     const data = {
       name,
@@ -33,6 +35,7 @@ export default class Register extends Component {
     };
 
     console.log(data);
+    history.push('/popular');
   }
 
 
@@ -45,10 +48,10 @@ export default class Register extends Component {
             <img src={logo} alt="B Beers Logo" />
 
             <p>
-              Make your account
+              Make your account.
               <br /> Discover a new beer right next to you
             </p>
-            <Link to="/">Back to home page.</Link>
+            <Link to="/">Back to home page</Link>
           </Info>
 
           <Form onSubmit={this.handleSubmit}>
