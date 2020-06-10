@@ -14,7 +14,7 @@ export const Container = styled.section`
     line-height: 145%;
     font-size: 200%;
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translateX(-80%);
   }
@@ -22,7 +22,7 @@ export const Container = styled.section`
 
 export const ActionBox = styled.div`
   position: absolute;
-  top: 25%;
+  top: 65%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -53,3 +53,34 @@ export const ActionBox = styled.div`
     border: 1px solid #c3410e;
   }
 `;
+
+export const Header = styled.header`
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 20px;
+
+  img {
+    width: 100px;
+    margin-left: 30px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      cursor: pointer;
+      list-style: none;
+      color: #FFF;
+      margin: 10px 20px;
+      font-size: 120%;
+      padding: 0;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+`;
+
