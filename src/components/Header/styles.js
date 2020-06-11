@@ -25,5 +25,8 @@ export const Container = styled.header`
         opacity: 0.7;
       }
     }
+    a {
+      text-decoration: none;
+    }
   }
 `;
