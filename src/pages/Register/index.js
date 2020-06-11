@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 import { Container, Page, Form, Input, SubmitButton, Info } from './styles';
 
 import logo from '../../assets/logo.png';
@@ -15,26 +16,29 @@ export default class Register extends Component {
     };
   }
 
-  handleInput = (e) => {
-    const { target } = e;
-    const { value } = target;
-    const { name } = target;
+  redirectHome = () => {
+    const { history } = this.props;
+    if (history) history.push('/popular');
+  };
 
-    this.setState({ [name]: value });
+  handleInput = (e) => {
+    const tg = e.target;
+    const val = tg.value;
+    const { name } = tg;
+
+    this.setState({ [name]: val });
   };
 
   handleSubmit = (e) => {
     e.preventDefault();
-    const history = useHistory();
     const { name, email, password } = this.state;
     const data = {
       name,
       email,
       password,
     };
-
     console.log(data);
-    history.push('/popular');
+    this.redirectHome();
   };
 
   render() {
@@ -60,7 +64,7 @@ export default class Register extends Component {
               onChange={this.handleInput}
             />
             <Input
-              type="text"
+              type="email"
               placeholder="Email"
               name="email"
               value={email}

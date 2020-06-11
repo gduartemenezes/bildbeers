@@ -14,7 +14,7 @@ export const Container = styled.div`
   background: #eee;
   border-radius: 8px;
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
 
