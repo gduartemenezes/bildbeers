@@ -19,8 +19,12 @@ export default function Header() {
         </Link>
       </ul>
       <ul className="list-user">
-        <li>Login</li>
-        <li>Sign up</li>
+        <Link to="/login">
+          <li>Log in</li>
+        </Link>
+        <Link to="/register">
+          <li>Sign up</li>
+        </Link>
       </ul>
     </Container>
   );
