@@ -21,6 +21,23 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto;
+  }
+  input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    & + input {
+      margin-top: 15px;
+    }
+  }
 `;
 
 export const Info = styled.div`
@@ -51,22 +68,6 @@ export const Info = styled.div`
   }
 `;
 
-export const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 70px auto;
-`;
-export const Input = styled.input`
-  width: 350px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-
-  & + input {
-    margin-top: 15px;
-  }
-`;
 export const SubmitButton = styled.button`
   margin-top: 30px;
   width: 300px;
