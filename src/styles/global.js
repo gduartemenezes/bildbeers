@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import hop from '../assets/hop.png';
 
 export default createGlobalStyle`
   *{
@@ -11,7 +12,8 @@ export default createGlobalStyle`
     min-height: 100%;
   }
   body{
-    background: #ddd;
+    background: url(${hop}) center center fixed;
+    background-size: cover;
     -webkit-font-smoothing: antialiased !important;
   }
 
@@ -23,4 +25,12 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+   a {
+     text-decoration: none;
+   }
+
+   ul {
+     list-style: none;
+   }
 `;
