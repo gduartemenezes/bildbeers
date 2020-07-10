@@ -5,6 +5,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   background: #352f44;
+  width: 100%;
 
   img {
     height: 75px;

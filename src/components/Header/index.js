@@ -6,15 +6,17 @@ import { Container } from './styles';
 export default function Header() {
   return (
     <Container>
-      <img src={logo} alt="Logo" />
+      <Link to="/">
+        <img src={logo} alt="Logo" />
+      </Link>
       <ul className="list-actions">
         <Link to="/">
           <li>About us</li>
         </Link>
-        <Link to="/">
+        <Link to="/beers">
           <li>Trending Beers</li>
         </Link>
-        <Link to="/">
+        <Link to="/search">
           <li>Search</li>
         </Link>
       </ul>
