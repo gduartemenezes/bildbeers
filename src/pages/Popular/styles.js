@@ -11,7 +11,7 @@ export const Page = styled.div`
 
 export const Container = styled.div`
   width: 1100px;
-  background: rgba(200, 200, 200, 0.4);
+  background: rgba(72, 60, 90, 0.2);
   border-radius: 8px;
   position: absolute;
   top: 15%;
@@ -21,6 +21,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow-y: scroll;
 `;
 
 export const BeerList = styled.ul`
@@ -32,7 +33,7 @@ export const BeerList = styled.ul`
   li {
     cursor: pointer;
 
-    background: rgba(72, 60, 90, 0.4);
+    background: transparent;
     border-radius: 8px;
     padding: 10px;
     max-width: 300px;
@@ -44,12 +45,13 @@ export const BeerList = styled.ul`
     img {
       height: 200px;
       margin: 15px;
+      padding: 0 15px;
     }
 
     &:hover {
       transform: scale(1.15);
       filter: brightness(80%);
-      background: #6c608a;
+      background: rgba(210, 210, 210, 0.8);
     }
   }
 `;
@@ -57,21 +59,36 @@ export const BeerList = styled.ul`
 export const Info = styled.div`
   display: flex;
   flex-direction: column;
-  background: #352f44;
+  justify-content: space-evenly;
+
+  background: rgba(72, 60, 90, 0.7);
   color: #fff;
   border-radius: 4px;
-  span {
-    font-size: 70%;
-    font-weight: bold;
-    margin: 10px 5px 0 0;
-  }
-  p {
-    margin: 0 10px;
-    font-size: 80%;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    line-height: 140%;
+  text-align: left;
+  height: 250px;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    strong {
+      font-size: 60%;
+      margin: 10px 10px 0;
+    }
+    span {
+      margin: 10px 10px 0;
+      font-size: 80%;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      line-height: 140%;
+    }
+
+    & + div {
+      margin-top: 5px;
+      padding-top: 5px;
+      border-top: 1px solid #ccc;
+    }
   }
 `;

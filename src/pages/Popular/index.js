@@ -10,85 +10,190 @@ export default function Popular() {
           <li key={192}>
             <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
             <Info>
-              <span name="name">Name:</span>
-              <p>Punk IPA</p>
-              <span name="brewer">Brewer:</span>
-              <p>Mr. Brewer Master</p>
-              <span name="tagline">Tags:</span>
-              <p>Post Modern Classic. Spiky. Tropical. Hoppy.</p>
-
-              <span name="abv">ABV:</span>
-              <p>6.0</p>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
             </Info>
           </li>
           <li key={192}>
             <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
             <Info>
-              <span name="name">Name:</span>
-              <p>Punk IPA</p>
-              <span name="brewer">Brewer:</span>
-              <p>Mr. Brewer Master</p>
-              <span name="tagline">Tags:</span>
-              <p>Post Modern Classic. Spiky. Tropical. Hoppy.</p>
-
-              <span name="abv">ABV:</span>
-              <p>6.0</p>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
             </Info>
           </li>
           <li key={192}>
             <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
             <Info>
-              <span name="name">Name:</span>
-              <p>Punk IPA</p>
-              <span name="brewer">Brewer:</span>
-              <p>Mr. Brewer Master</p>
-              <span name="tagline">Tags:</span>
-              <p>Post Modern Classic. Spiky. Tropical. Hoppy.</p>
-
-              <span name="abv">ABV:</span>
-              <p>6.0</p>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
             </Info>
           </li>
           <li key={192}>
             <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
             <Info>
-              <span name="name">Name:</span>
-              <p>Punk IPA</p>
-              <span name="brewer">Brewer:</span>
-              <p>Mr. Brewer Master</p>
-              <span name="tagline">Tags:</span>
-              <p>Post Modern Classic. Spiky. Tropical. Hoppy.</p>
-
-              <span name="abv">ABV:</span>
-              <p>6.0</p>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
             </Info>
           </li>
           <li key={192}>
             <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
             <Info>
-              <span name="name">Name:</span>
-              <p>Punk IPA</p>
-              <span name="brewer">Brewer:</span>
-              <p>Mr. Brewer Master</p>
-              <span name="tagline">Tags:</span>
-              <p>Post Modern Classic. Spiky. Tropical. Hoppy.</p>
-
-              <span name="abv">ABV:</span>
-              <p>6.0</p>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
             </Info>
           </li>
           <li key={192}>
             <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
             <Info>
-              <span name="name">Name:</span>
-              <p>Punk IPA</p>
-              <span name="brewer">Brewer:</span>
-              <p>Mr. Brewer Master</p>
-              <span name="tagline">Tags:</span>
-              <p>Post Modern Classic. Spiky. Tropical. Hoppy.</p>
-
-              <span name="abv">ABV:</span>
-              <p>6.0</p>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
+            </Info>
+          </li>
+          <li key={192}>
+            <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
+            <Info>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
+            </Info>
+          </li>
+          <li key={192}>
+            <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
+            <Info>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
+            </Info>
+          </li>
+          <li key={192}>
+            <img src="https://images.punkapi.com/v2/192.png" alt="beer" />
+            <Info>
+              <div>
+                <strong name="name">Name:</strong>
+                <span>Punk IPA</span>
+              </div>
+              <div>
+                <strong name="brewer">Brewer:</strong>
+                <span>Mr. Brewer Master</span>
+              </div>
+              <div>
+                <strong name="tagline">Tags:</strong>
+                <span>Post Modern Classic. Spiky. Tropical. Hoppy.</span>
+              </div>
+              <div>
+                <strong name="abv">ABV:</strong>
+                <span>6.0</span>
+              </div>
             </Info>
           </li>
         </BeerList>
